@@ -1,0 +1,214 @@
+$# Creating journal file 
+$# Z:\Documents\mAEWing2_FEMv1p2\mAEWing2_FEMv1p2.db.jou at 30-Jan-17 13:45:54
+uil_file_rebuild.start("C:\MSC.Software\Patran_x64\20141/template.db", @
+"Z:\Documents\mAEWing2_FEMv1p2\mAEWing2_FEMv1p2.db")
+$# Synchronizing the User Data Manager
+set_current_dir( "Z:\Documents\mAEWing2_FEMv1p2" )
+$# The current working directory has been changed to the database location 
+$# shown.                                                                     
+$#                                                                            
+$#                                   
+nastran_input_import( "Z:\Documents\mAEWing2_FEMv1p2\sol103_mAEWing2.bdf",  @
+"default_group", 11, [TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, FALSE,  @
+TRUE, TRUE], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, @
+ 0], [-2000000000, -2000000000, -2000000000, -2000000000, -2000000000,  @
+-2000000000, -2000000000, -2000000000, 0, 0, 0] )
+$# Creating Nastran Database using SOL nifimp_v22: Success
+$# Importing data...
+$# 30 Coordinate Frames written to database.
+$# 5198 Nodes written to database.
+$# 8 Materials written to database.
+$# 9901 Elements written to database.
+$# 35 Property Sets written to database.
+$# 52 MPCs written to database.
+$# 8 Case Control lines/comments written to database.
+$# 40 unrecognized Bulk Data lines/comments written to database.
+$# 48 total unrecognized entities/comment lines written to database.
+$# 1 Load Cases written to database.
+$# 2 Load Sets of type "spc1" written to database.
+$# Reading of MSC.Nastran input file completed.
+ga_view_zoom_set( 48.655231 )
+msc_dra_init_stream(  )
+msc_dra_add_param( "DATABASE", "Z:\Documents\mAEWing2_FEMv1p2\mAEWing2_FEM" // @
+"v1p2.db" )
+msc_dra_add_param( "JOBNAME", "sol103_mAEWing2" )
+msc_dra_add_param( "RESULTS FILE", "Z:\Documents\mAEWing2_FEMv1p2\sol103_m" // @
+"aewing2.xdb" )
+msc_dra_add_param( "OBJECT", "Result Entities" )
+msc_dra_add_param( "ANALYSIS TYPE", "Structural" )
+msc_dra_add_param( "DIVISION TOLERANCE", "1.0E-8" )
+msc_dra_add_param( "NUMERICAL TOLERANCE", "1.0E-4" )
+msc_dra_add_param( "MODEL TOLERANCE", "0.0049999999" )
+msc_dra_add_param( "ROTATIONAL NODAL RESULTS", "OFF" )
+msc_dra_add_param( "STRESS/STRAIN INVARIANTS", "OFF" )
+msc_dra_add_param( "PRINCIPAL DIRECTIONS", "OFF" )
+msc_dra_add_param( "ELEMENT RESULTS POSITIONS", "Nodal       " )
+msc_dra_add_param( "TITLE DESCRIPTION", "ON" )
+msc_dra_finish_stream(  )
+analysis_import( "MSC.Nastran", "sol103_mAEWing2",  @
+"Attach Results File No Job", "Z:\Documents\mAEWing2_FEMv1p2\sol103_maewin" // @
+"g2.xdb", TRUE )
+$# Attaching Direct Results Access file: 
+$# "Z:\Documents\mAEWing2_FEMv1p2\sol103_maewing2.xdb"
+$# XDB file created by "MSC.NASTRAN V2014" on 1/30/2017 using "VENDOR:INTEL   
+$#              MODEL:P5-4/2356 (GL-GAUSS) OPSYS:WINDOWS SERVER 2008"
+$# *** Begin: Attach Result File ***
+$# Processing result load case: SC1:DEFAULT
+$# Processing result sub-case: Mode 1 : Freq. = 0.
+$# Processing result sub-case: Mode 2 : Freq. = 0.
+$# Processing result sub-case: Mode 3 : Freq. = 0.
+$# Processing result sub-case: Mode 4 : Freq. = 0.
+$# Processing result sub-case: Mode 5 : Freq. = 0.
+$# Processing result sub-case: Mode 6 : Freq. = 0.
+$# Processing result sub-case: Mode 7 : Freq. = 5.5024
+$# Processing result sub-case: Mode 8 : Freq. = 7.9995
+$# Processing result sub-case: Mode 9 : Freq. = 9.0123
+$# Processing result sub-case: Mode 10 : Freq. = 9.32
+$# Processing result sub-case: Mode 11 : Freq. = 15.691
+$# Processing result sub-case: Mode 12 : Freq. = 17.868
+$# Processing result sub-case: Mode 13 : Freq. = 19.405
+$# Processing result sub-case: Mode 14 : Freq. = 21.67
+$# Processing result sub-case: Mode 15 : Freq. = 22.183
+$# Processing result sub-case: Mode 16 : Freq. = 25.989
+$# Processing result sub-case: Mode 17 : Freq. = 26.962
+$# Processing result sub-case: Mode 18 : Freq. = 28.846
+$# Processing result sub-case: Mode 19 : Freq. = 30.048
+$# Processing result sub-case: Mode 20 : Freq. = 30.955
+$# Processing result sub-case: Mode 21 : Freq. = 31.523
+$# Processing result sub-case: Mode 22 : Freq. = 32.229
+$# Processing result sub-case: Mode 23 : Freq. = 34.443
+$# Processing result sub-case: Mode 24 : Freq. = 34.808
+$# Processing result sub-case: Mode 25 : Freq. = 35.35
+$# Processing result sub-case: Mode 26 : Freq. = 35.591
+$# Processing result sub-case: Mode 27 : Freq. = 37.098
+$# Processing result sub-case: Mode 28 : Freq. = 37.239
+$# Processing result sub-case: Mode 29 : Freq. = 38.34
+$# Processing result sub-case: Mode 30 : Freq. = 39.449
+$# Processing result sub-case: Mode 31 : Freq. = 41.566
+$# Processing result sub-case: Mode 32 : Freq. = 41.961
+$# Processing result sub-case: Mode 33 : Freq. = 44.124
+$# Processing result sub-case: Mode 34 : Freq. = 47.691
+$# Processing result sub-case: Mode 35 : Freq. = 47.81
+$# Processing result sub-case: Mode 36 : Freq. = 51.176
+$# Processing result sub-case: Mode 37 : Freq. = 61.019
+$# Processing result sub-case: Mode 38 : Freq. = 66.546
+$# Processing result sub-case: Mode 39 : Freq. = 70.83
+$# Processing result sub-case: Mode 40 : Freq. = 73.432
+$# Processing result sub-case: Mode 41 : Freq. = 73.81
+$# Processing result sub-case: Mode 42 : Freq. = 75.978
+$# Processing result sub-case: Mode 43 : Freq. = 76.631
+$# Processing result sub-case: Mode 44 : Freq. = 82.193
+$# Processing result sub-case: Mode 45 : Freq. = 84.345
+$# Processing result sub-case: Mode 46 : Freq. = 95.113
+$# Processing result sub-case: Mode 47 : Freq. = 103.56
+$# Processing result sub-case: Mode 48 : Freq. = 103.57
+$# Processing result sub-case: Mode 49 : Freq. = 111.72
+$# Processing result sub-case: Mode 50 : Freq. = 113.79
+$# Total execution time in real seconds:        0.000
+$# Total execution time in CPU  seconds:        0.047
+$# *** End:   Attach Result File ***
+res_data_load_dbresult( 0, "Nodal", "Scalar", "DEFAULT.SC1",  @
+"A1:Mode 7 : Freq. = 5.5024", "Eigenvectors", "Translational", "(NON-LAYERED)" @
+, "MAG", "Default", "DeriveAverage", "All", "ShapeFunc" )
+res_data_title( 0, "Nodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@$LN "] )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "Nodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "Nodal", "Vector", "DEFAULT.SC1",  @
+"A1:Mode 7 : Freq. = 5.5024", "Eigenvectors", "Translational", "(NON-LAYERED)" @
+, "", "Global", "", "", "" )
+res_data_title( 0, "Nodal", "Vector", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL"] )
+res_display_deformation_create( "", "Elements", 0, [""], 9, [ @
+"DeformedStyle:White,Solid,1,Wireframe", "DeformedScale:Model=0.1",  @
+"UndeformedStyle:ON,Blue,Solid,1,Wireframe", "TitleDisplay:ON",  @
+"MinMaxDisplay:ON", "ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3",  @
+"DeformDisplay:Resultant", "DeformComps:OFF,OFF,OFF"] )
+res_display_deformation_post( "", 0 )
+ga_view_aa_set( -75.580780, 10.627894, 6.026656 )
+res_data_load_dbresult( 0, "Nodal", "Scalar", "DEFAULT.SC1",  @
+"A1:Mode 8 : Freq. = 7.9995", "Eigenvectors", "Translational", "(NON-LAYERED)" @
+, "MAG", "Default", "DeriveAverage", "All", "ShapeFunc" )
+res_data_title( 0, "Nodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@$LN "] )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "Nodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "Nodal", "Vector", "DEFAULT.SC1",  @
+"A1:Mode 8 : Freq. = 7.9995", "Eigenvectors", "Translational", "(NON-LAYERED)" @
+, "", "Global", "", "", "" )
+res_data_title( 0, "Nodal", "Vector", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL"] )
+res_display_deformation_create( "", "Elements", 0, [""], 9, [ @
+"DeformedStyle:White,Solid,1,Wireframe", "DeformedScale:Model=0.1",  @
+"UndeformedStyle:ON,Blue,Solid,1,Wireframe", "TitleDisplay:ON",  @
+"MinMaxDisplay:ON", "ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3",  @
+"DeformDisplay:Resultant", "DeformComps:OFF,OFF,OFF"] )
+res_display_deformation_post( "", 0 )
+ga_view_aa_set( -46.841610, -5.815418, -31.227201 )
+ga_view_aa_set( -79.783226, -15.065232, -87.078827 )
+ga_view_aa_set( -75.222374, -4.386548, -123.763458 )
+ga_view_zoom_set( 38.860367 )
+res_data_load_dbresult( 0, "Nodal", "Scalar", "DEFAULT.SC1",  @
+"A1:Mode 9 : Freq. = 9.0123", "Eigenvectors", "Translational", "(NON-LAYERED)" @
+, "MAG", "Default", "DeriveAverage", "All", "ShapeFunc" )
+res_data_title( 0, "Nodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@$LN "] )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "Nodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "Nodal", "Vector", "DEFAULT.SC1",  @
+"A1:Mode 9 : Freq. = 9.0123", "Eigenvectors", "Translational", "(NON-LAYERED)" @
+, "", "Global", "", "", "" )
+res_data_title( 0, "Nodal", "Vector", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL"] )
+res_display_deformation_create( "", "Elements", 0, [""], 9, [ @
+"DeformedStyle:White,Solid,1,Wireframe", "DeformedScale:Model=0.1",  @
+"UndeformedStyle:ON,Blue,Solid,1,Wireframe", "TitleDisplay:ON",  @
+"MinMaxDisplay:ON", "ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3",  @
+"DeformDisplay:Resultant", "DeformComps:OFF,OFF,OFF"] )
+res_display_deformation_post( "", 0 )
+ga_view_aa_set( -94.084244, 6.597288, -8.271653 )
+ga_view_aa_set( -62.737366, 5.207483, -2.883627 )
+ga_view_aa_set( 0., 0., 0. )
+ga_view_zoom_set( 116.007034 )
+res_data_load_dbresult( 0, "Nodal", "Scalar", "DEFAULT.SC1",  @
+"A1:Mode 10 : Freq. = 9.32", "Eigenvectors", "Translational", "(NON-LAYERED)", @
+ "MAG", "Default", "DeriveAverage", "All", "ShapeFunc" )
+res_data_title( 0, "Nodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@$LN "] )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "Nodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "Nodal", "Vector", "DEFAULT.SC1",  @
+"A1:Mode 10 : Freq. = 9.32", "Eigenvectors", "Translational", "(NON-LAYERED)", @
+ "", "Global", "", "", "" )
+res_data_title( 0, "Nodal", "Vector", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL"] )
+res_display_deformation_create( "", "Elements", 0, [""], 9, [ @
+"DeformedStyle:White,Solid,1,Wireframe", "DeformedScale:Model=0.1",  @
+"UndeformedStyle:ON,Blue,Solid,1,Wireframe", "TitleDisplay:ON",  @
+"MinMaxDisplay:ON", "ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3",  @
+"DeformDisplay:Resultant", "DeformComps:OFF,OFF,OFF"] )
+res_display_deformation_post( "", 0 )
+ga_view_aa_set( -57.518074, 4.169573, 100.738182 )
+ga_view_aa_set( -63.340759, -3.937913, 62.414551 )
+ga_view_aa_set( -46.141571, 0.135872, 68.099205 )
+ga_view_aa_set( -56.152554, 2.454771, 70.090332 )
+ga_view_aa_set( -75.018051, 0.445112, 64.443428 )
+ga_view_aa_set( -67.013222, 0.136348, 63.492275 )
+$# Flushing the User Data Manager
+$# Journal file stopped recording at 30-Jan-17 13:47:58

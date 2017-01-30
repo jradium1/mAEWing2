@@ -1,0 +1,59 @@
+$REJECT (SEMTRN)  IGNORE INPUT CARD(S) BEFORE BEGIN BULK 
+SOL 103
+SOL 103
+$REJECT (SEMTRN)  CASE CONTROL CARD(S) AFTER  CEND 
+$ Direct Text Input for Global Case Control Data
+$>TITLE = MSC.Nastran job created on 20-Feb-15 at 15:37:03
+$ Using Nastran default values for RESVEC
+$>SUPORT1 = 250
+$ Subcase name : Default
+$>   SUBTITLE=Default
+  $ SPC = 99
+$>   VECTOR(SORT1,REAL)=ALL
+$REJECT (SEMTRN)  IGNORE INPUT CARD(S) AFTER  BEGIN BULK 
+$ Direct Text Input for Bulk Data
+$>PARAM    POST    0
+$ GROUND POINT FOR WEIGHT GENERATION
+$>PARAM,GRDPNT,0
+$ Fictitious support at the CG for decoupled rigid modes 10001 UPDATE DURING MDAO 
+$ SUPORT,930044,123456
+$ PRE_PROPVERT WEIGHT TO MASS (1/386)  
+$>PARAM     WTMASS .002591
+$ PRE_PROPVERT FROM IN/SEC TO KNOTS
+$>PARAM       VREF  20.254
+$1......2.......3.......4.......5.......6.......7.......8.......9.......0.......
+$ GRDSET                                                  126 
+$ EIGR     101    MGIV                            20
+$          MASS
+$ ==============================================================
+$                       elements and nodes
+$ ==============================================================
+$
+$ INCLUDE mAEWing2_CB_leadsurf.dat
+$ INCLUDE mAEWing2_CB_rearsurf.dat
+$ INCLUDE mAEWing2_IW_leadsurf.dat
+$ INCLUDE mAEWing2_OW_leadsurf.dat
+$
+$ =============================================
+$          Referenced Coordinate Frames
+$ =============================================
+$ =============================================
+$          Laminated  Configurations
+$ =============================================
+$ =============================================
+$ 
+$ =============================================
+$         MPC for winglet connections 
+$ =============================================
+$ =============================================
+$         lumped mass at center body
+$ =============================================
+$ =============================================
+$        Separate bdf files for Flaps
+$ ============================================
+$
+$ coordinate framework for control surfaces
+$>CORD2R   12             86.044  -25.    51.966  86.044  -25.    155.5471
+$
+$>CORD2R*  23                             92.30699157714849.49999999999999
+

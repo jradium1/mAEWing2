@@ -1,0 +1,220 @@
+MSC Nastran V2014.1 (Intel Windows Server 2008 R2 6.1 7601) Control File: 
+----------------------------------------------------------------- 
+$ sysfield=SCR*(RAW=YES,BUFFIO=YES,wnum=16,wsize=16mb) $(c:/msc.software/msc_nastran/20141/conf/nast20141.rcf[1])
+$ sysfield=DBALL(RAW=YES,BUFFIO=YES,wnum=16,wsize=16mb) $(c:/msc.software/msc_nastran/20141/conf/nast20141.rcf[2])
+Nastran BUFFSIZE=8193 $(c:/msc.software/msc_nastran/20141/conf/nast20141.rcf[5])
+JID='z:/documents/maewing2_femv1p2/sol103_maewing2.bdf'
+OUT='./sol103_maewing2'
+MEM=2141847552      $ WORDS
+MACH='Intel'
+OPER='Windows Server 2008 R2'
+OSV='6.1 7601'
+MODEL='P5-4/2356 (gl-gauss)'
+NPROC='12'
+CONFIG=15
+NPROC=12
+symbol=DELDIR='c:/msc.software/msc_nastran/20141/msc20141/nast/del' $(program default)
+symbol=DEMODIR='c:/msc.software/msc_nastran/20141/msc20141/nast/demo' $(program default)
+symbol=LM_NO_SNMP=1 $(c:/msc.software/msc_nastran/20141/conf/nast20141.rcf[8])
+symbol=SSSALTERDIR='c:/msc.software/msc_nastran/20141/msc20141/nast/sssalter' $(program default)
+symbol=TPLDIR='c:/msc.software/msc_nastran/20141/msc20141/nast/tpl' $(program default)
+SDIR='c:/scratch/sol103_maewing2.T14276_33'
+DBS='./sol103_maewing2'
+SCR='no'
+SMEM=100
+BPOOL=2042MB
+NEWDEL='c:/msc.software/msc_nastran/20141/msc20141/win64i4/SSS'
+DEL='MSCDEF'
+DML=MSCDEF
+SDL=MSCDEF
+AUTH='1701@trinidad.its.vt.edu'
+AUTHQUE=20
+MSGCAT='c:/msc.software/msc_nastran/20141/msc20141/win64i4/analysis.msg'
+MSGDEST='f06'
+NEWS='c:/msc.software/msc_nastran/20141/msc20141/nast/news.txt'
+----------------------------------------------------------------- 
+MSC_ISHELLPATH=C:\MSC.Software\MSC_Nastran\20141\msc20141\actran\win64\Actran_15.0.b.77592\bin; 
+MSC_JIDPATH= 
+PATH=c:\msc.software\msc_nastran\20141\msc20141\win64i4\nCode\bin;c:\msc.software\msc_nastran\20141\msc20141\win64i4\nvidia;c:\msc.software\msc_nastran\20141\msc20141\win64i4\lib;c:\msc.software\msc_nastran\20141\msc20141\win64i4;C:\MSC.Software\Patran_x64\20141\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ZAERO\;C:\MSC.Software\Patran_x64\20122\bin;C:\Program Files\Tecplot\Tec360 2013R1\Bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\mpirt;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\mpirt;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;C:\Program Files (x86)\MiKTeX 2.9\miktex\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\PROGRA~2\HECSALV7;C:\IFOR\WIN\BIN;C:\IFOR\WIN\BIN\EN_US;c:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Orca3D;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\SIMULIA\Abaqus\Commands;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Orca3D (64-bit) 
+SCA_SERVICE_CATALOG=c:\msc.software\msc_nastran\20141\msc20141\res\SCAServiceCatalog.xml 
+SCA_RESOURCE_DIR=c:\msc.software\msc_nastran\20141\msc20141\res 
+Cmd Line:    C:\MSC.Software\MSC_Nastran\20141\msc20141\win64i4\nastran.exe JID=Z:\Documents\mAEWing2_FEMv1p2\sol103_mAEWing2.bdf 
+Current Dir: Z:\Documents\mAEWing2_FEMv1p2 
+Time Cmd:    c:\msc.software\msc_nastran\20141\msc20141\win64i4\msctime 
+Executable:  c:\msc.software\msc_nastran\20141\msc20141\win64i4\analysis.exe 
+Arch= Kywd:  [Not specified]  
+MSC_MSG:     stderr  
+FPE:         yes  
+----------------------------------------------------------------- 
+Current resource limits:
+ Physical memory:                    16341 MB
+ Physical memory available:           8831 MB
+ Paging file size:                   32681 MB
+ Paging file size available:         25182 MB
+ Virtual memory:                   8388607 MB
+ Virtual memory available:         8388550 MB
+----------------------------------------------------------------- 
+System configuration:
+ Hostname:         gl-gauss.aoe.vt.edu
+ Architecture:     win64i4
+ Platform:         Intel Windows Server 2008 R2 6.1 7601 (Windows Compute Cluster)
+ Model:            P5-4/2356
+ Clock freq.:      2356 MHz
+ Number of CPUs:   12
+ Executable:       standard
+ Raw model ID:     15
+ Config number:    15
+ Physical memory:  16341 MB
+ Virtual memory:   32681 MB
+ Numeric format:   32-bit little-endian IEEE.
+ Bytes per word:   4
+ Disk block size:  512 bytes (128 words)
+ Remote shell cmd: "c:/msc.software/msc_nastran/20141/msc20141/win64i4/mscrmtcmd.exe" (Windows non-CCS nodes, UNIX)
+                   <ccs_cmd> (Windows CCS nodes)
+----------------------------------------------------------------- 
+MSC Nastran started  Mon Jan 30 13:46:33 EST 2017 
+ 13:46:35  Beginning Analysis
+SCA Kernel 15.8.298203 successfully initialized
+BLAS/LAPACK .dll "c:\msc.software\msc_nastran\20141\msc20141\win64i4\libimalloc.dll" has been loaded.
+BLAS/LAPACK .dll "c:\msc.software\msc_nastran\20141\msc20141\win64i4\mkl_core.dll" has been loaded.
+BLAS/LAPACK .dll "c:\msc.software\msc_nastran\20141\msc20141\win64i4\mkl_intel_thread.dll" has been loaded.
+BLAS/LAPACK .dll "c:\msc.software\msc_nastran\20141\msc20141\win64i4\mkl_rt.dll" has been loaded.
+BLAS/LAPACK .dll "c:\msc.software\msc_nastran\20141\msc20141\win64i4\MSCblas.dll" has been loaded.
+
+ 13:46:40  MSC Authorization Information - System Attributes (1004, 0)
+ 13:46:40  -----------------------------------------------------------
+  Date:          Mon Jan 30 13:46:40 2017
+  MSC Id:        b8ca3aaa2bc1 (ethernet) (Intel)
+  Hostname:      gl-gauss (user weizhao, display CITATION2)
+  License files: 1701@trinidad.its.vt.edu
+  CEID:          5DBD1901-151F5432
+  User:          weizhao
+  Display:       CITATION2
+  LAPI Version:  LAPI 9.7.4-3243 (FLEXlm 11.9.0.0)
+
+  * * * * * * * * * * * * * * * * * * * *
+  * * * * * * * * * * * * * * * * * * * *
+  * *                                 * *
+  * *   MSC Customer Entitlement ID   * *
+  * *        5DBD1901-151F5432        * *
+  * *                                 * *
+  * * * * * * * * * * * * * * * * * * * *
+  * * * * * * * * * * * * * * * * * * * *
+
+ 13:46:44  MSC Authorization Information - Checkout Successful (1016, 0)
+ 13:46:44  -------------------------------------------------------------
+ 13:46:44  Acquired 1 license for MSC Nastran from license server on host trinidad.its.vt.edu
+
+
+Beginning bulk data processing using the IFPStar component.
+For more information on IFPStar, please see KB article KB8019200
+on our support pages, at http://simcompanion.mscsoftware.com.
+
+ 13:46:45  Reading INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_nodes.dat"
+ 13:46:45  3974 records read from INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_nodes.dat"
+ 13:46:45  Reading INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_CB_addspar.dat"
+ 13:46:45  156 records read from INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_CB_addspar.dat"
+ 13:46:45  Reading INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_CB_leadspar.dat"
+ 13:46:45  120 records read from INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_CB_leadspar.dat"
+ 13:46:45  Reading INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_CB_midspar.dat"
+ 13:46:45  100 records read from INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_CB_midspar.dat"
+ 13:46:45  Reading INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_CB_rearspar.dat"
+ 13:46:45  56 records read from INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_CB_rearspar.dat"
+ 13:46:45  Reading INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_CB_ribs.dat"
+ 13:46:45  804 records read from INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_CB_ribs.dat"
+ 13:46:45  Reading INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_CB_topskin.dat"
+ 13:46:45  776 records read from INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_CB_topskin.dat"
+ 13:46:45  Reading INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_CB_botskin.dat"
+ 13:46:45  776 records read from INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_CB_botskin.dat"
+ 13:46:45  Reading INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_IW_leadspar.dat"
+ 13:46:45  72 records read from INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_IW_leadspar.dat"
+ 13:46:45  Reading INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_IW_midspar.dat"
+ 13:46:45  72 records read from INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_IW_midspar.dat"
+ 13:46:45  Reading INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_IW_rearspar.dat"
+ 13:46:45  80 records read from INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_IW_rearspar.dat"
+ 13:46:45  Reading INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_IW_ribs_v2.dat"
+ 13:46:45  480 records read from INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_IW_ribs_v2.dat"
+ 13:46:45  Reading INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_IW_botskin_v2.dat"
+ 13:46:45  644 records read from INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_IW_botskin_v2.dat"
+ 13:46:45  Reading INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_IW_topskin_v2.dat"
+ 13:46:45  644 records read from INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_IW_topskin_v2.dat"
+ 13:46:45  Reading INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_OW_leadspar.dat"
+ 13:46:45  352 records read from INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_OW_leadspar.dat"
+ 13:46:45  Reading INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_OW_rearspar.dat"
+ 13:46:45  344 records read from INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_OW_rearspar.dat"
+ 13:46:45  Reading INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_OW_midribs_v2.dat"
+ 13:46:45  1008 records read from INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_OW_midribs_v2.dat"
+ 13:46:45  Reading INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_OW_xribs.dat"
+ 13:46:45  200 records read from INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_OW_xribs.dat"
+ 13:46:45  Reading INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_OW_topskin_v2.dat"
+ 13:46:45  1660 records read from INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_OW_topskin_v2.dat"
+ 13:46:45  Reading INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_OW_botskin_v2.dat"
+ 13:46:45  1660 records read from INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_OW_botskin_v2.dat"
+ 13:46:45  Reading INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_winglet.dat"
+ 13:46:45  1124 records read from INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_winglet.dat"
+ 13:46:45  Reading INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_CORD2R.dat"
+ 13:46:45  83 records read from INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_CORD2R.dat"
+ 13:46:45  Reading INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_material.dat"
+ 13:46:45  83 records read from INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_material.dat"
+ 13:46:45  Reading INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\spc_suport.dat"
+ 13:46:45  22 records read from INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\spc_suport.dat"
+ 13:46:45  Reading INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_PCOMP.dat"
+ 13:46:45  50 records read from INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_PCOMP.dat"
+ 13:46:45  Reading INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_RBE2.dat"
+ 13:46:45  67 records read from INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_RBE2.dat"
+ 13:46:45  Reading INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_CONM2.dat"
+ 13:46:45  47 records read from INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_CONM2.dat"
+ 13:46:45  Reading INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_OW_TE_flaps_nodes.dat"
+ 13:46:45  684 records read from INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_OW_TE_flaps_nodes.dat"
+ 13:46:45  Reading INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_OW_TE_flaps_elements.dat"
+ 13:46:45  632 records read from INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_OW_TE_flaps_elements.dat"
+ 13:46:45  Reading INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_OW_LE_flaps_nodes.dat"
+ 13:46:45  171 records read from INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_OW_LE_flaps_nodes.dat"
+ 13:46:45  Reading INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_OW_LE_flaps_elements.dat"
+ 13:46:45  158 records read from INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_OW_LE_flaps_elements.dat"
+ 13:46:45  Reading INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_IW_TE_flaps_nodes.dat"
+ 13:46:45  171 records read from INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_IW_TE_flaps_nodes.dat"
+ 13:46:45  Reading INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_IW_TE_flaps_elements.dat"
+ 13:46:45  158 records read from INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_IW_TE_flaps_elements.dat"
+ 13:46:45  Reading INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_CBUSH_4_flaps.dat"
+ 13:46:45  38 records read from INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_CBUSH_4_flaps.dat"
+ 13:46:45  Reading INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\RBE2_control_surfaces.dat"
+ 13:46:45  96 records read from INCLUDE file "z:\Documents\mAEWing2_FEMv1p2\RBE2_control_surfaces.dat"
+ 13:46:45  115 records read from JID file "z:/documents/maewing2_femv1p2/sol103_maewing2.bdf"
+ 13:46:45  A total of 17677 records were read from 36 files.
+
+Processing of bulk data entries is complete.
+
+ 13:46:48  Analysis started.
+ 13:46:48  Geometry access/verification to CAD part initiated (if needed).
+ 13:46:48  Geometry access/verification to CAD part successfully completed (if needed).
+ 13:46:48  Finite element model generation started.
+ 13:46:48  Finite element model generated 31188 degrees of freedom.
+ 13:46:48  Finite element model generation successfully completed.
+ 13:46:48  Application of Loads and Boundary Conditions to the finite element model started.
+ 13:46:48  Application of Loads and Boundary Conditions to the finite element model successfully completed.
+ 13:46:49  Solution of the system equations for normal modes started.
+ 13:46:53  Solution of the system equations for normal modes successfully completed.
+ 13:46:59  Normal modes analysis completed.
+ 13:46:59  24 records read from JID file "z:/documents/maewing2_femv1p2/sol103_maewing2.bdf"
+ 13:46:59  NSEXIT: EXIT(0)
+ 13:46:59  Analysis complete  0
+Real:       24.749 seconds ( 0:00:24.749)
+User:       10.717 seconds ( 0:00:10.717)
+Sys:         3.556 seconds ( 0:00:03.556)
+ ==================================================
+ OS:      6.1
+ OEM ID: 9
+ Number of processors: 12
+ Page size: 4096
+ Processor type: 8664
+ Minimum application address: 10000
+ Maximum application address: fffeffff
+ Active processor mask: 4095
+ Ram:  16341 Mb
+ ==================================================
+ Performance Comparisons can be found at:
+ http://web.mscsoftware.com/support/prod_support/nastran/performance/ 
+ ==================================================
+ ==================================================
+MSC Nastran finished Mon Jan 30 13:47:00 EST 2017 

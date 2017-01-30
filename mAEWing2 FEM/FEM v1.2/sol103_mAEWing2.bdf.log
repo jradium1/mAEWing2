@@ -1,0 +1,235 @@
+ *** BEGIN MESSAGE ECHO (NIFIMP) 
+
+
+ *** END MESSAGE ECHO (NIFIMP) 
+
+Beginning Analysis
+
+ *** START OF CONTROL FILE ECHO ***
+ $ sysfield=SCR*(RAW=YES,BUFFIO=YES,wnum=16,wsize=16mb) $(c:/msc.software/patran_x64/20141/mscnastran_files/servermode/conf/nast20141.rcf[1])
+ $ sysfield=DBALL(RAW=YES,BUFFIO=YES,wnum=16,wsize=16mb) $(c:/msc.software/patran_x64/20141/mscnastran_files/servermode/conf/nast20141.rcf[2])
+ Nastran SYSTEM(444)=6 $(command line[4])
+ JID='z:/documents/maewing2_femv1p2/sol103_maewing2_22249560.bdf'
+ OUT='./sol103_maewing2_22249560'
+ MEM=96993280      $ WORDS
+ MACH='Intel'
+ OPER='Windows Server 2008 R2'
+ OSV='6.1 7601'
+ MODEL='P5-4/2356 (gl-gauss)'
+ CONFIG=15
+ NPROC=12
+ symbol=DELDIR='c:/msc.software/patran_x64/20141/mscnastran_files/servermode/msc20141/nast/del' $(program default)
+ symbol=DEMODIR='c:/msc.software/patran_x64/20141/mscnastran_files/servermode/msc20141/nast/demo' $(program default)
+ symbol=SSSALTERDIR='c:/msc.software/patran_x64/20141/mscnastran_files/servermode/msc20141/nast/sssalter' $(program default)
+ symbol=TPLDIR='c:/msc.software/patran_x64/20141/mscnastran_files/servermode/msc20141/nast/tpl' $(program default)
+ SDIR='c:/users/weizhao/appdata/local/temp/21/sol103_maewing2_22249560.T21076_42'
+ DBS='./sol103_maewing2_22249560'
+ SCR='no'
+ SMEM=100
+ BPOOL=150
+ NEWDEL='c:/msc.software/patran_x64/20141/mscnastran_files/servermode/msc20141/win64i4/SSS'
+ DEL='MSCDEF'
+ AUTH='1701@trinidad.its.vt.edu'
+ AUTHQUE=20
+ MSGCAT='c:/msc.software/patran_x64/20141/mscnastran_files/servermode/msc20141/win64i4/analysis.msg'
+ MSGDEST='f06'
+ *** END OF CONTROL FILE ECHO ***
+
+1
+ 
+ 
+ 
+ 
+                      Warning: This computer program is protected by copyright law and international treaties.       
+                  Unauthorized use, reproduction or distribution of this computer program, or any portion of it, may 
+                                          result in severe civil and criminal penalties.                             
+                         Copyright (C) 2015 MSC Software Corporation and its licensors. All rights reserved.         
+ 
+ 
+                                              * * * * * * * * * * * * * * * * * * * *
+                                              * * * * * * * * * * * * * * * * * * * *
+                                              * *                                 * *
+                                              * *           MSC Software          * *
+                                              * *               CORP              * *
+                                              * *                                 * *
+                                              * *      M S C   N a s t r a n      * *
+                                              * *                                 * *
+                                              * *                                 * *
+                                              * *                                 * *
+                                              * *     Version 2014.1.0-CL347922   * *
+                                              * *                                 * *
+                                              * *                                 * *
+                                              * *                                 * *
+                                              * *          JUL  3, 2015           * *
+                                              * *                                 * *
+                                              * *              Intel              * *
+                                              * *   MODEL P5-4/2356 (gl-gauss)    * *
+                                              * * Windows Server 2008 R2 6.1 7601 * *
+                                              * *        Compiled for 8664        * *
+                                              * *                                 * *
+                                              * * * * * * * * * * * * * * * * * * * *
+                                              * * * * * * * * * * * * * * * * * * * *
+1                                                                           JANUARY  30, 2017  MSC Nastran  7/ 3/15   PAGE     1
+                                                                                                                                    
+0        N A S T R A N    F I L E    A N D    S Y S T E M    P A R A M E T E R    E C H O                                           
+0                                                                                                                                   
+                                                                                                                                    
+                                                                                                                                    
+     $ SYSFIELD=SCR*(RAW=YES,BUFFIO=YES,WNUM=16,WSIZE=16MB) $(C:/MSC.SOFTWARE/PATRAN_
+     $ SYSFIELD=DBALL(RAW=YES,BUFFIO=YES,WNUM=16,WSIZE=16MB) $(C:/MSC.SOFTWARE/PATRAN
+     NASTRAN SYSTEM(444)=6 $(COMMAND LINE[4])                                        
+     $                                                                               
+     $ ORIGINAL INPUT FILE: Z:\DOCUMENTS\MAEWING2_FEMV1P2\SOL103_MAEWING2.BDF        
+     $                                                                               
+     NASTRAN  SYSTEM(316)=5 SYSTEM(357)=0                                            
+     INIT MASTER, LOGICAL=(MASTER(300000))                                           
+1                                                                           JANUARY  30, 2017  MSC Nastran  7/ 3/15   PAGE     2
+                                                                                                                                    
+0        N A S T R A N    E X E C U T I V E    C O N T R O L    E C H O                                                             
+0                                                                                                                                   
+                                                                                                                                    
+                                                                                                                                    
+     SOL NIFIMP3                                                                             
+     COMPILE NIFIMP3 NOLIST                                                                  
+     (SEE NASTRAN SOURCE PROGRAM COMPILATION FOR LISTING OF DMAP SEQUENCE)
+     END $ NIFIMP                                                                            
+     ALTER 'IFP1 .*/ICASECC.*' (1), 'IFP1 .*/ICASECC.*' (1) $                                
+     IFP1     /ICASECC,IPCDB,IXYCDB,IPOSTCDB,IFORCE,,,                                       
+              /S,N,NOGOIFP1/// $                                                             
+     CEND                                                                                    
+1    MSC.NASTRAN JOB CREATED ON 20-FEB-15 AT 15:37:03                       JANUARY  30, 2017  MSC Nastran  7/ 3/15   PAGE     3
+                                                                                                                                    
+0                                                                                                                                   
+0                                        C A S E    C O N T R O L    E C H O                                                        
+                 COMMAND                                                                                                            
+                 COUNT                                                                                                              
+                  1      $ DIRECT TEXT INPUT FOR GLOBAL CASE CONTROL DATA                                        
+                  2      TITLE = MSC.NASTRAN JOB CREATED ON 20-FEB-15 AT 15:37:03                                
+                  3      ECHO = NONE                                                                             
+                  4      $ USING NASTRAN DEFAULT VALUES FOR RESVEC                                               
+                  5      SUPORT1 = 250                                                                           
+                  6      SUBCASE 1                                                                               
+                  7      $ SUBCASE NAME : DEFAULT                                                                
+                  8         SUBTITLE=DEFAULT                                                                     
+                  9         METHOD = 101                                                                         
+                 10        $ SPC = 99                                                                            
+                 11         VECTOR(SORT1,REAL)=ALL                                                               
+                 12         SPCFORCES(SORT1,REAL)=ALL                                                            
+                 13         DISP(PUNCH)=ALL                                                                      
+ *** USER WARNING MESSAGE 602 (IFP1D)
+     TWO OR MORE OF THE ABOVE CARD TYPES DETECTED WHERE ONLY ONE IS
+     LEGAL.   THE LAST FOUND WILL BE USED.
+                 14      BEGIN BULK                                                                              
+ *** USER WARNING MESSAGE 112 (SCA.MDSolver.Obj.InputFile.InputFile::read)
+The include directory C:\MSC.Software\Patran_x64\20141\mscnastran_files\servermode\msc20141\\nast\\tpl\include is not readable.
+ *** USER WARNING MESSAGE 112 (SCA.MDSolver.Obj.InputFile.InputFile::read)
+The include directory C:\MSC.Software\Patran_x64\20141\mscnastran_files\servermode\msc20141\\nast\\tpl\include is not readable.
+1    MSC.NASTRAN JOB CREATED ON 20-FEB-15 AT 15:37:03                       JANUARY  30, 2017  MSC Nastran  7/ 3/15   PAGE     4
+                                                                                                                                    
+0                                                                                                                                   
+                                              I N P U T   B U L K   D A T A   E C H O                                               
+                 ENTRY                                                                                                              
+                 COUNT        .   1  ..   2  ..   3  ..   4  ..   5  ..   6  ..   7  ..   8  ..   9  ..  10  .                      
+                              $INCLUDE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_nodes.dat"
+                              $END OF INCLUDE FILE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_nodes.dat"
+                              $INCLUDE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_CB_addspar.dat"
+                              $END OF INCLUDE FILE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_CB_addspar.dat"
+                              $INCLUDE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_CB_leadspar.dat"
+                              $END OF INCLUDE FILE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_CB_leadspar.dat"
+                              $INCLUDE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_CB_midspar.dat"
+                              $END OF INCLUDE FILE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_CB_midspar.dat"
+                              $INCLUDE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_CB_rearspar.dat"
+                              $END OF INCLUDE FILE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_CB_rearspar.dat"
+                              $INCLUDE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_CB_ribs.dat"
+                              $END OF INCLUDE FILE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_CB_ribs.dat"
+                              $INCLUDE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_CB_topskin.dat"
+                              $END OF INCLUDE FILE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_CB_topskin.dat"
+                              $INCLUDE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_CB_botskin.dat"
+                              $END OF INCLUDE FILE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_CB_botskin.dat"
+                              $INCLUDE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_IW_leadspar.dat"
+                              $END OF INCLUDE FILE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_IW_leadspar.dat"
+                              $INCLUDE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_IW_midspar.dat"
+                              $END OF INCLUDE FILE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_IW_midspar.dat"
+                              $INCLUDE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_IW_rearspar.dat"
+                              $END OF INCLUDE FILE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_IW_rearspar.dat"
+                              $INCLUDE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_IW_ribs_v2.dat"
+                              $END OF INCLUDE FILE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_IW_ribs_v2.dat"
+                              $INCLUDE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_IW_botskin_v2.dat"
+                              $END OF INCLUDE FILE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_IW_botskin_v2.dat"
+                              $INCLUDE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_IW_topskin_v2.dat"
+                              $END OF INCLUDE FILE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_IW_topskin_v2.dat"
+                              $INCLUDE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_OW_leadspar.dat"
+                              $END OF INCLUDE FILE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_OW_leadspar.dat"
+                              $INCLUDE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_OW_rearspar.dat"
+                              $END OF INCLUDE FILE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_OW_rearspar.dat"
+                              $INCLUDE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_OW_midribs_v2.dat"
+                              $END OF INCLUDE FILE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_OW_midribs_v2.dat"
+                              $INCLUDE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_OW_xribs.dat"
+                              $END OF INCLUDE FILE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_OW_xribs.dat"
+                              $INCLUDE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_OW_topskin_v2.dat"
+                              $END OF INCLUDE FILE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_OW_topskin_v2.dat"
+                              $INCLUDE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_OW_botskin_v2.dat"
+                              $END OF INCLUDE FILE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_OW_botskin_v2.dat"
+                              $INCLUDE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_winglet.dat"
+                              $END OF INCLUDE FILE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_winglet.dat"
+                              $INCLUDE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_CORD2R.dat"
+                              $END OF INCLUDE FILE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_CORD2R.dat"
+                              $INCLUDE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_material.dat"
+1    MSC.NASTRAN JOB CREATED ON 20-FEB-15 AT 15:37:03                       JANUARY  30, 2017  MSC Nastran  7/ 3/15   PAGE     5
+                                                                                                                                    
+0                                                                                                                                   
+                                              I N P U T   B U L K   D A T A   E C H O                                               
+                 ENTRY                                                                                                              
+                 COUNT        .   1  ..   2  ..   3  ..   4  ..   5  ..   6  ..   7  ..   8  ..   9  ..  10  .                      
+                              $END OF INCLUDE FILE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_material.dat"
+                              $INCLUDE "z:\Documents\mAEWing2_FEMv1p2\spc_suport.dat"
+                              $END OF INCLUDE FILE "z:\Documents\mAEWing2_FEMv1p2\spc_suport.dat"
+                              $INCLUDE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_PCOMP.dat"
+                              $END OF INCLUDE FILE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_PCOMP.dat"
+                              $INCLUDE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_RBE2.dat"
+                              $END OF INCLUDE FILE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_RBE2.dat"
+                              $INCLUDE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_CONM2.dat"
+                              $END OF INCLUDE FILE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_CONM2.dat"
+                              $INCLUDE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_OW_TE_flaps_nodes.dat"
+                              $END OF INCLUDE FILE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_OW_TE_flaps_nodes.dat"
+                              $INCLUDE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_OW_TE_flaps_elements.dat"
+                              $END OF INCLUDE FILE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_OW_TE_flaps_elements.dat"
+                              $INCLUDE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_OW_LE_flaps_nodes.dat"
+                              $END OF INCLUDE FILE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_OW_LE_flaps_nodes.dat"
+                              $INCLUDE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_OW_LE_flaps_elements.dat"
+                              $END OF INCLUDE FILE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_OW_LE_flaps_elements.dat"
+                              $INCLUDE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_IW_TE_flaps_nodes.dat"
+                              $END OF INCLUDE FILE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_IW_TE_flaps_nodes.dat"
+                              $INCLUDE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_IW_TE_flaps_elements.dat"
+                              $END OF INCLUDE FILE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_IW_TE_flaps_elements.dat"
+                              $INCLUDE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_CBUSH_4_flaps.dat"
+                              $END OF INCLUDE FILE "z:\Documents\mAEWing2_FEMv1p2\mAEWing2_CBUSH_4_flaps.dat"
+                              $INCLUDE "z:\Documents\mAEWing2_FEMv1p2\RBE2_control_surfaces.dat"
+                              $END OF INCLUDE FILE "z:\Documents\mAEWing2_FEMv1p2\RBE2_control_surfaces.dat"
+1    MSC.NASTRAN JOB CREATED ON 20-FEB-15 AT 15:37:03                       JANUARY  30, 2017  MSC Nastran  7/ 3/15   PAGE     6
+                                                                                                                                    
+0                                                                                                                                   
+                                        M O D E L   S U M M A R Y          BULK = 0
+                                   ENTRY NAME        NUMBER OF ENTRIES
+                                   ----------        -----------------
+                                        CBUSH                       24
+                                        CONM2                       25
+                                       CORD2R                       30
+                                       CQUAD4                      840
+                                       CTRIA3                     9012
+                                        EIGRL                        1
+                                         GRID                     5198
+                                         MAT8                        8
+                                        PARAM                        5
+                                        PBUSH                        1
+                                        PCOMP                       11
+                                         RBE2                       52
+                                         SPC1                        2
+                                      SUPORT1                        2
+
+ ^^^     
+ ^^^ >>> IFP OPERATIONS COMPLETE <<< 
+ ^^^     
+1    MSC.NASTRAN JOB CREATED ON 20-FEB-15 AT 15:37:03                       JANUARY  30, 2017  MSC Nastran  7/ 3/15   PAGE     7
+                                                                                                                                    
+0                                                                                                                                   
